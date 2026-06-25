@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Ultra-Colorful Portfolio | CodeAlpha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Intern<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm a <br><span class="dynamic-text"></span></h1>
+            <p>CodeAlpha Frontend Development Internship Projects Portfolio</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="portfolio-btn btn-pink">Explore My Work</a>
+                <a href="#contact" class="portfolio-btn btn-cyan">Let's Connect</a>
+            </div>
+        </div>
+    </header>
+
+   <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            My name is <strong>Umaima</strong>. I am a passionate and enthusiastic Frontend Web Developer who loves creating modern, colorful, and highly responsive web interfaces that deliver premium digital experiences.
+            <br><br>
+            Currently, I am working with <strong>CodeAlpha</strong> as a Frontend Development Intern, where I have successfully built real-world projects, mastering clean code architecture, UI/UX aesthetics, and robust dynamic user interactions.
+        </p>
+    </section>
+
+    <section id="skills" class="section bg-gradient-dark">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card html"><i class="fab fa-html5"></i><h3>HTML5</h3></div>
+            <div class="skill-card css"><i class="fab fa-css3-alt"></i><h3>CSS3</h3></div>
+            <div class="skill-card js"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+            <div class="skill-card responsive"><i class="fas fa-laptop-code"></i><h3>Responsive UI</h3></div>
+            <div class="skill-card git"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3></div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Featured Projects Slider</h2>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <div class="project-icon icon-cyan"><i class="fas fa-photo-film"></i></div>
+                    <h3>Interactive Image Gallery</h3>
+                    <p>HTML, CSS aur JavaScript se bani responsive gallery, jisme smoothly chalne wale category filters aur image modal pop-up (Lightbox) shamil hain.</p>
+                </div>
+                <div class="slide">
+                    <div class="project-icon icon-pink"><i class="fas fa-calculator"></i></div>
+                    <h3>Professional Calculator</h3>
+                    <p>Ek sleek dark-themed web calculator jo accurate arithmetic operations perform karta hai. Isme advanced logic aur full keyboard support add kiya gaya hai.</p>
+                </div>
+                <div class="slide">
+                    <div class="project-icon icon-yellow"><i class="fas fa-cubes"></i></div>
+                    <h3>Personal Portfolio Site</h3>
+                    <p>Yeh maujuda professional single-page website jo mere saare frontend skills, project source codes, aur contact details ko ek premium dynamic layout mein present karti hai.</p>
+                </div>
+            </div>
+
+            <button class="slider-btn prev-slide">&#10094;</button>
+            <button class="slider-btn next-slide">&#10095; </button>
+
+            <div class="slider-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-gradient-dark">
+        <h2>Get In Touch</h2>
+        <div class="contact-box">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope text-cyan"></i> <span><strong>Email:</strong> raoumaima48@gmail.com</span></p>
+                <p><i class="fab fa-linkedin text-pink"></i> <span><strong>LinkedIn:</strong> linkedin.com/in/umaima_raj9669</span></p>
+                <p><i class="fab fa-github text-yellow"></i> <span><strong>GitHub:</strong> github.com</span></p>
+            </div>
+            <div class="social-buttons">
+                <a href="#" class="social-btn link-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-btn link-github"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-btn link-mail"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CodeAlpha Internship. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
